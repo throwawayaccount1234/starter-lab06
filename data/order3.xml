@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The dream burger order (takeout)
+-->
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="takeout">
+    <customer>Derek</customer>
+    <burger>
+        <patty type="beef"/>
+        <cheeses top="aged" bottom="aged"/>
+        <topping type="bacon"/>
+        <topping type="shrooms"/>
+        <topping type="porkbelly"/>
+        <sauce type="ketchup"/>
+        <sauce type="mustard"/>
+        <instructions>Add peanut butter as well, please!</instructions>
+    </burger>
+    <burger>
+        <patty type="vege"/>
+        <cheeses top="aged" bottom="aged"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <topping type="shrooms"/>
+        <sauce type="ketchup"/>
+        <sauce type="mayo"/>
+    </burger>
+</order>
